@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "./lib",
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "dependencies": {
     "@azure/storage-blob": "^10.5.0"
@@ -12,7 +12,10 @@
   "strapi": {
     "isProvider": true
   },
-  "repository": "https://github.com/alhill/strapi-provider-upload-double-azure",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alhill/strapi-provider-upload-double-azure.git"
+  },
   "homepage": "http://strapi.io",
   "keywords": [
     "upload",
@@ -29,5 +32,13 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "jest": "^25.4.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alhill/strapi-provider-upload-double-azure/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "description": ""
 }
